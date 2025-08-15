@@ -2,7 +2,7 @@ import asyncio
 import aiohttp
 import time
 
-URL = 'https://benefitsmart.online/'
+URL = 'https://adobe-j79a.onrender.com'
 COMPLETED = 0
 REQUEST_PER_SECOND = 1
 
