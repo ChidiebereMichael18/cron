@@ -2,7 +2,7 @@ import asyncio
 import aiohttp
 import time
 
-URL = 'https://adobe-j79a.onrender.com'
+URL = 'https://thrive-lxk2.onrender.com/api'
 COMPLETED = 0
 REQUEST_PER_SECOND = 1
 
