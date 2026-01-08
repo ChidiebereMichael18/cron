@@ -8,9 +8,9 @@ except Exception:
     print("Missing dependency: aiohttp is not installed. Install it with `pip install aiohttp`.")
     sys.exit(1)
 
-URL = 'https://benefitsmart.online/'
+URL = 'https://benefitsmart.xyz/'
 COMPLETED = 0
-REQUEST_PER_SECOND = 1
+REQUEST_PER_SECOND = 2
 
 TEST_DURATION = 720 # 3 minute
 
@@ -51,6 +51,7 @@ class GetTest:
                 print(f'send {REQUEST_PER_SECOND} requests in 1 second')
                 done = COMPLETED + success_count
                 print(done)
+                print(URL)
                 await asyncio.sleep(max(0, 1 - (time.time() % 1)))
 
             print("Load test completed.")
