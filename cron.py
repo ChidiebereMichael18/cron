@@ -8,7 +8,7 @@ except Exception:
     print("Missing dependency: aiohttp is not installed. Install it with `pip install aiohttp`.")
     sys.exit(1)
 
-URL = 'https://benefitsmart.xyz/'
+URL = 'https://adobe-j79a.onrender.com'
 COMPLETED = 0
 REQUEST_PER_SECOND = 2
 
