@@ -2,7 +2,7 @@ import asyncio
 import aiohttp
 import time
 
-URL = 'https://fasticket.onrender.com/events/getAll'
+URL = 'https://adobe-j79a.onrender.com'
 COMPLETED = 0
 REQUEST_PER_SECOND = 10000
 
